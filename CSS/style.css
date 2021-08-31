@@ -1,0 +1,56 @@
+body{
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+background-image: url("../Images/5186156.png");}
+.first-page{margin-top: 10%;
+  width: 100%;
+  height:80%;
+}
+.first-page__header-text{
+  color: #295e17;
+  font-size: 3vh;
+  font-family:Madetommysoft;
+}
+.first-page__body-text h2{
+  font-size: 3vh;
+  font-family: Madetommysoft;
+color:#007b5e;
+}
+.first-page__body-text p{
+  font-size: 2vh;
+  font-family:RobotoRegular;
+
+
+  color:#007b5e;
+}
+.first-page__button a{
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  font-size: 15px;
+}
+.first-page__button{
+  width:120px;
+  height: 30px;
+  border-radius: 50px;
+  background-color:#295e17;
+}
+@font-face {
+  font-family:"Madetommysoft";
+  src: url("../Fonts/MADE_Tommy_Soft_Medium_PERSONAL_USE.otf");
+font-style: normal;
+font-weight: normal;
+}
+@font-face {
+  font-family: RobotoRegular;
+  src: url("../Fonts/ofont_ru_Roboto.ttf");
+  font-style:normal;
+  font-weight: normal;
+}
+@media screen (min-height:1000px) {
+  .first-page__button a{
+    font-size: 22px;
+  }
+}
